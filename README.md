@@ -18,6 +18,7 @@ The build is fairly straightforward - if you bought the PCB/panel set then the s
 Some points to note:
 
 - Take care of the polarity of electrolytic capacitors and diodes. For diodes, the ring on the silkscreen corresponds to the cathode end (usually marked by a black band on the diode body)
+- The cathodes (short leg) of the LEDs, D1 and D2, should go through the square pads.
 - C2 and C5 are the actual filter capacitors. 1nF is a representative value and what I use in the pre-built modules. Smaller values will result in a 'sharper' sound. Values greater than around 3.3nF will result in a 'muddy' sound. Use film capacitors - ceramics will work, but may result in an altered sound/response.
 - For reasons of stability, C8 should _always_ be a film/PET capacitor.
 - The feedback LEDs, D1 and D2, can be whatever you like - I recommend red LEDs with a relatively low (1.8-2.0V) forward voltage.
